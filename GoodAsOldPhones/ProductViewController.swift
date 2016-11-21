@@ -24,4 +24,7 @@ class ProductViewController: UIViewController {
         productImageView.image = UIImage(named: "phone-fullscreen3")
     }
     
+    @IBAction func addToCartPressed(_ sender: Any) {
+        print("Button tapped")
+    }
 }
